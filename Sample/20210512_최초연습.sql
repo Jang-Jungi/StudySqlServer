@@ -3,7 +3,10 @@ SELECT memberID,memberName
   FROM memberTBL
   WHERE memberID = 'Sang' ;
 
+--SELECT productName, cost, company FROM productTBL;
+
 --입력 명령문
-SELECT productName, cost, company FROM productTBL;
 INSERT INTO memberTBL
-VALUES('Bang', '방문식', '부산시 진구');
+VALUES('Bung', '벙문식', '부산시 진구') ;
+
+SELECT * FROM memberTBL;
