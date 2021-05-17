@@ -1,3 +1,6 @@
+USE sqlDB
+GO
+
 --3개의 테이블을 INNER JOIN 
 SELECT * FROM stdTbl;
 SELECT * FROM clubTbl;

@@ -1,3 +1,6 @@
+USE sqlDB
+GO
+
 --외부 JOIN
 --우리 쇼핑몰에서 물건을 한번도 구매하지 않은 회원들을 조회
 SELECT u.userID, u.name

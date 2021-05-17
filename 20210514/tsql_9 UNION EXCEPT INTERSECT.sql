@@ -1,3 +1,6 @@
+USE sqlDB
+GO
+
 --테이블 합치기UNION  p.320
 SELECT s.Region,s.StdID FROM stdTbl AS s
  UNION
